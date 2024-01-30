@@ -18,13 +18,14 @@
       <div class="suggestions">
         <h3>Suggested Searches</h3>
         <ul>
-          <li>Cats</li>
-          <li>More Cats</li>
-          <li>Lol Cats</li>
-          <li>Cats in Hats</li>
-          <li>Cute Cats</li>
-          <li>Dogs?</li>
-          <li>It's the internet, of course it's cats</li>
+          <li onclick="runInitialSuggestionsSearch('Nature')">Nature</li>
+          <li onclick="runInitialSuggestionsSearch('City')">City</li>
+          <li onclick="runInitialSuggestionsSearch('Food')">Food</li>
+          <li onclick="runInitialSuggestionsSearch('Cute Animals')">Cute Animals</li>
+          <li onclick="runInitialSuggestionsSearch('Art')">Art</li>
+          <li onclick="runInitialSuggestionsSearch('Travel')">Travel</li>
+          <li onclick="runInitialSuggestionsSearch('Culture')">Culture</li>
+          <li onclick="runInitialSuggestionsSearch('Space')">Space</li>
         </ul>
       </div>
     </div>
@@ -40,52 +41,11 @@
           progress_activity
         </span>
       </div>
-      <div id="resultsImageContainer">
-        <div class="resultImage"> <!-- These are just examples, remove them for your submission -->
-          <img src="https://th-thumbnailer.cdn-si-edu.com/bgmkh2ypz03IkiRR50I-UMaqUQc=/1000x750/filters:no_upscale():focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/55/95/55958815-3a8a-4032-ac7a-ff8c8ec8898a/gettyimages-1067956982.jpg">
-        </div>
-        <div class="resultImage">
-          <img src="https://t3.ftcdn.net/jpg/01/82/13/18/360_F_182131866_eDjFtBOUsEO5W91a78XHJ9C0xpnr6m3b.jpg">
-        </div>
-        <div class="resultImage">
-          <img src="https://www.shutterstock.com/image-photo/cute-pet-kitten-on-clean-600nw-2315794797.jpg">
-        </div>
-      </div>
+      <div id="resultsImageContainer"></div>
     </div>
   </div>
 
-  <div id="board">
-    <div class="savedImage"> <!-- These are just examples, remove them for your submission -->
-      <img src="https://examplecat.com/cat.png">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>    
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://examplecat.com/cat.png">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>    
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://examplecat.com/cat.png">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>
-  </div>
+  <div id="board"></div>
 
   <script src="apikey.js"></script>
   <script src="mood.js"></script>
